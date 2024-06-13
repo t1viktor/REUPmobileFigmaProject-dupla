@@ -1,0 +1,158 @@
+.main-img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.bola{
+    display: flex;
+    position: absolute;
+    top: 163px;
+    right: 24px;
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    fill: #000;
+    stroke-width: 2px;
+    stroke: #1C1D24;
+    border-radius: 50%;
+    background-color: #000000;
+    border: solid 3px #1C1D24;
+    align-items: center;
+    padding: 15px 5px;
+}
+
+/* ABA INICIAL */
+.section-01{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ABA CASO CLIQUE EM CREATE MEMBBERSHIP */
+.section-02{
+    display: none;
+    flex-direction: column;
+}
+
+
+/* ABA CASO CLIQUE FORGOT PASSWORD */
+.section-03{
+    display: none;
+    flex-direction: column;
+}
+
+
+/* ABA PARA CONFIRMAR EMAIL NO CREATE MEMBERSHIP */
+.confirm-email{
+    display: none;
+    flex-direction: column;
+}
+
+/* ABA DEPOIS DE CLICAR EM RESET PASSWORD EM FORGOT PASSWORD */
+.section-04{
+    display: none;
+    flex-direction: column;
+}
+
+
+/* ABA CASO ENTRE NORMALMENTE COM EMAIL E SENHA */
+.home-img{
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* ABA CASO ENTRE NORMALMENTE COM EMAIL E SENHA */
+.home-01{
+    display: none;
+    flex-direction: column;
+    -webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+/* APARECE QUANDO CLICA EM TODAY */
+.today {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+
+/* APARECE QUANDO CLICA EM THIS WEEK */
+.this-week{
+    display: none;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+
+/* APARECE QUANDO CLICA EM MY COUPONS */
+.coupon-div{
+    display: none;
+    width: 345px;
+height: 103px;
+flex-shrink: 0;
+margin-bottom: 30px;
+
+}
+
+
+
+
+.cookies{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+height: 261px;
+background: #FFF;
+position: fixed;
+bottom: 0;
+font-family: "Inter", sans-serif;
+padding: 0 24px;
+animation-name:bounce-in-bottom;
+animation-duration: 1s;
+}
+
+.preference{
+    display: none;
+    flex-direction: column;
+    bottom: 0;
+    position: fixed;
+height: 100vh;
+background: #FFF;
+padding: 0 24px;
+align-items: center;
+-webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.form-Control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+
+.form-control.success input{
+    border-color: #ffffff;
+}
+
+.form-control.error input{
+    border-color: #ff0000fb;
+}
+.form-control.error small{
+    color: #ff1900;
+    visibility: visible;
+}
+
+
+
